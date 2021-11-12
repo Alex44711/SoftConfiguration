@@ -11,9 +11,8 @@ function ii {Invoke-Item}
 
 Set-Theme PowerLine
 
-Set-Alias sublime 'C:\Development\Sublime Text Build 3211\sublime_text.exe'
-Set-Alias code 'C:\Edge\development\VSCode-win32-x64-1.52.1\bin\code.cmd'
-Set-Alias gcheck gcheckout
+Set-Alias sublime '${location}\sublime_text.exe'
+Set-Alias code '${location}\code.cmd'
 
 Set-Theme PowerLine
 
