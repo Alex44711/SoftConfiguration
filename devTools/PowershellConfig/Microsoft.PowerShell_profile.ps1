@@ -5,7 +5,7 @@ function gitc {git checkout $args}
 function gitD {git branch -D $args}
 function gits {git status}
 function gitpr {git pull --rebase}
-function gitp {
+function gitpo {
   $env:current_branch=$(git branch --show-current)
   git push origin $env:current_branch:$env:current_branch
 }
